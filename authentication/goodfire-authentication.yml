@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/goodfire-ai/goodfire-sdk
+docs: https://github.com/goodfire-ai/goodfire-sdk
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+  api_key_transport: bearer
+  oauth2_flows: []
+  notes: >-
+    No published OpenAPI spec; auth profile captured from the official goodfire-sdk README
+    and Ember quickstart. Ember exposes an OpenAI-compatible inference surface, so keys are
+    presented as a Bearer token in the Authorization header.
+schemes:
+- name: apiKey
+  type: apiKey
+  in: header
+  scheme: bearer
+  parameter: Authorization
+  description: >-
+    Ember API key issued from the Goodfire platform (https://platform.goodfire.ai). Supplied
+    to the SDK via the GOODFIRE_API_KEY environment variable / goodfire.Client(api_key=...)
+    and sent as an Authorization: Bearer <key> header on the OpenAI-compatible endpoint.
+  sources: [github.com/goodfire-ai/goodfire-sdk]
+key_issuance: https://platform.goodfire.ai
