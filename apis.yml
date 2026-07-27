@@ -1,8 +1,27 @@
 aid: goodfire
 name: Goodfire
-description: Goodfire is a company surfaced as a portfolio company of lightspeed-venture-partners, menlo-ventures,
-  wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: >-
+  Goodfire is an AI interpretability research lab building tools to understand, debug, and
+  intentionally design neural networks by surfacing the internal features (via sparse
+  autoencoders) that drive model behavior. Its Ember API/SDK was the first hosted
+  mechanistic-interpretability API, offering an OpenAI-compatible inference endpoint plus
+  feature discovery, inspection, and steering over open models such as Llama 3.3 70B and
+  Llama 3.1 8B. The company is now consolidating this interpretability work into its Silico
+  platform, which spans large language models, life sciences, and robotics/vision. Backed by
+  Lightspeed, Menlo Ventures, and Wing Venture Capital.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67f8223b7a5017e5e1e983ac_opengraph.png
 url: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- Machine Learning
+- Interpretability
+- LLM
+- Model Steering
+- Inference
+- Developer Tools
+- Research
+apis:
+- name: Ember API
+  description: >-
+    Hosted mechanistic-interpretability API. OpenAI-compatible chat-completions sampling plus
+    feature discovery (semantic/contrastive search, AutoSteer), feature inspection/context,
+    and model-variant creation and steering over open models like Llama 3.3 70B and Llama 3.1
+    8B. API-key (Bearer) authentication. Note: the goodfire-sdk repo was archived 2025-10-13
+    and the API host currently returns 502 as the work moves into the Silico platform.
+  humanURL: https://github.com/goodfire-ai/goodfire-sdk
+  baseURL: https://api.goodfire.ai/api/inference/v1
+  tags:
+  - Interpretability
+  - LLM
+  - Inference
+  properties:
+  - type: Authentication
+    url: authentication/goodfire-authentication.yml
+  - type: SourceCode
+    url: https://github.com/goodfire-ai/goodfire-sdk
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -26,3 +71,48 @@ maintainers:
 common:
 - type: Website
   url: https://goodfire.ai
+- type: DeveloperPortal
+  url: https://platform.goodfire.ai
+- type: Documentation
+  url: https://github.com/goodfire-ai/goodfire-sdk
+- type: GettingStarted
+  url: https://github.com/goodfire-ai/goodfire-sdk#readme
+- type: SignUp
+  url: https://platform.goodfire.ai
+- type: Blog
+  url: https://www.goodfire.ai/blog
+- type: Support
+  url: https://www.goodfire.ai/contact
+- type: GitHubOrganization
+  url: https://github.com/goodfire-ai
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d25635919af723e246_TermsOfUse.pdf
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d26882aaeb845674e4_PrivacyPolicy.pdf
+- type: TrustCenter
+  url: https://trust.goodfire.ai/
+- type: Packages
+  url: packages/goodfire-packages.yml
+- type: SDKs
+  url: packages/goodfire-packages.yml
+- type: Authentication
+  url: authentication/goodfire-authentication.yml
+- type: Conventions
+  url: conventions/goodfire-conventions.yml
+- type: Lifecycle
+  url: lifecycle/goodfire-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/goodfire-lifecycle.yml
+- type: Conformance
+  url: conformance/goodfire-conformance.yml
+- type: ChangeLog
+  url: changelog/goodfire-changelog.yml
+- type: LLMsTxt
+  url: llms/goodfire-llms.txt
+- type: DomainSecurity
+  url: security/goodfire-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

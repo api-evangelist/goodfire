@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/goodfire/#history
+subject: goodfire (Ember Python SDK)
+scheme: semver
+current_version: 0.3.5
+status: archived
+notes: >-
+  Goodfire publishes no dated product changelog page; the closest dated release record is the
+  PyPI history of the official goodfire SDK. Repository archived 2025-10-13. Recent window
+  below (major/minor line boundaries).
+entries:
+- version: 0.3.5
+  date: '2025-03-05'
+  breaking: false
+  highlights: Final published release of the Ember Python SDK.
+- version: 0.3.4
+  date: '2025-01-05'
+  breaking: false
+- version: 0.3.1
+  date: '2024-12-23'
+  breaking: false
+  highlights: 0.3.x line (Ember GA-era client).
+- version: 0.3.0
+  date: '2024-12-23'
+  breaking: true
+  highlights: 0.3 line following an extended 0.3.0.dev pre-release series in December 2024.
+- version: 0.2.40
+  date: '2024-11-27'
+  breaking: false
+  highlights: End of the rapid 0.2.x iteration (Nov 2024).
+- version: 0.2.0
+  date: '2024-11-18'
+  breaking: true
+- version: 0.1.3
+  date: '2024-11-05'
+  breaking: false
+  highlights: First public releases of the goodfire SDK.

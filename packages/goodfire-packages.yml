@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/goodfire/
+packages:
+- language: python
+  registry: pypi
+  name: goodfire
+  url: https://pypi.org/project/goodfire/
+  install: pip install goodfire
+  version: 0.3.5
+  license: Apache-2.0
+  requires_python: ">=3.10,<4.0"
+  repository: https://github.com/goodfire-ai/goodfire-sdk
+  summary: Understand and steer your AI models (Ember API/SDK client)
+  official: true
+  status: archived
+  notes: >-
+    Official first-party Python client for the Goodfire Ember mechanistic-interpretability
+    API. The source repository (goodfire-ai/goodfire-sdk) was archived 2025-10-13 and the
+    hosted API host (api.goodfire.ai) currently returns 502 as Goodfire consolidates the
+    work into its Silico platform.

@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/goodfire-ai/goodfire-sdk
+versioning:
+  scheme: uri-path
+  current: v1
+  base_url: https://api.goodfire.ai/api/inference/v1
+deprecation:
+  policy_url: null
+  sunset_header: false
+  status: product-deprecated
+  detail: >-
+    The Ember API/SDK appears deprecated. The official client repo goodfire-ai/goodfire-sdk
+    was archived (read-only) on 2025-10-13, docs.goodfire.ai now 301-redirects to
+    www.goodfire.ai, and the API host api.goodfire.ai returns HTTP 502. Goodfire is
+    consolidating interpretability tooling into its Silico platform (www.goodfire.ai/silico).
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+trust_center: https://trust.goodfire.ai/
+deprecated_operations: []
+observed:
+  sdk_repo_archived: '2025-10-13'
+  last_sdk_release: '2025-03-05'
+  api_host_status: 502
+  docs_host: redirects to www.goodfire.ai

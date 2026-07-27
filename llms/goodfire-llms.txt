@@ -1,0 +1,32 @@
+# Goodfire
+
+> Goodfire is an AI interpretability research lab building tools to understand, debug, and intentionally design neural networks by surfacing the internal features that drive model behavior. Its Ember API/SDK was the first hosted mechanistic-interpretability API — an OpenAI-compatible inference endpoint plus feature discovery, inspection, and steering over open models such as Llama 3.3 70B and Llama 3.1 8B. The company is consolidating this work into its Silico platform spanning LLMs, life sciences, and robotics/vision.
+
+## APIs
+
+- [Ember API](https://github.com/goodfire-ai/goodfire-sdk): Hosted mechanistic-interpretability API. Base URL https://api.goodfire.ai/api/inference/v1. OpenAI-compatible chat-completions sampling plus feature search, inspection, and model steering. API-key (Bearer) auth. Note: SDK repo archived 2025-10-13; API host currently returns 502.
+
+## SDKs
+
+- [goodfire (Python)](https://pypi.org/project/goodfire/): Official first-party client. `pip install goodfire`. Apache-2.0. Latest 0.3.5 (2025-03-05, archived).
+
+## Docs
+
+- [Goodfire](https://www.goodfire.ai): Company site.
+- [Silico platform](https://www.goodfire.ai/silico): Current interpretability platform.
+- [Research](https://www.goodfire.ai/research): Interpretability research.
+- [Blog](https://www.goodfire.ai/blog): Announcements incl. Ember and open-source SAEs.
+- [goodfire-sdk (GitHub)](https://github.com/goodfire-ai/goodfire-sdk): Archived Ember SDK + quickstart/examples.
+- [GitHub org](https://github.com/goodfire-ai): Open interpretability artifacts and SAEs.
+
+## Platform
+
+- [Sign up / platform](https://platform.goodfire.ai): Get an Ember API key.
+- [Trust Center](https://trust.goodfire.ai/): Vanta-hosted security/compliance portal.
+- [Contact](https://www.goodfire.ai/contact)
+- [Careers](https://www.goodfire.ai/careers)
+
+## Legal
+
+- [Terms of Use](https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d25635919af723e246_TermsOfUse.pdf)
+- [Privacy Policy](https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d26882aaeb845674e4_PrivacyPolicy.pdf)

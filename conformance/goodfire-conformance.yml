@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: derived
+source: https://github.com/goodfire-ai/goodfire-sdk
+standards:
+- id: openai-chat-completions
+  conforms: true
+  evidence: Ember ships an OpenAI-compatible chat-completions sampling API (per SDK README).
+- id: oauth2
+  conforms: false
+  evidence: Authentication is a static API key (Bearer), no OAuth2 flows documented.
+- id: openid-connect
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No application/problem+json error contract documented.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on goodfire.ai.
+- id: rfc8414-oauth-authorization-server
+  conforms: false
+- id: openid-discovery
+  conforms: false
+notes: >-
+  Derived from the published SDK behavior; no OpenAPI document is available to assert
+  spec-level conformance. A Vanta-hosted trust center exists at trust.goodfire.ai but its
+  named certifications could not be machine-verified (JS-rendered), so no Compliance claim
+  is asserted here.

@@ -1,0 +1,45 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/goodfire-ai/goodfire-sdk
+docs: https://github.com/goodfire-ai/goodfire-sdk
+summary: >-
+  Cross-cutting request/response semantics for the Goodfire Ember API, captured from the
+  official goodfire-sdk README and Ember quickstart (no OpenAPI spec is published).
+authentication:
+  style: api-key
+  transport: Authorization Bearer header
+  scheme_ref: authentication/goodfire-authentication.yml
+base_url: https://api.goodfire.ai/api/inference/v1
+versioning:
+  scheme: uri-path
+  current: v1
+  ref: lifecycle/goodfire-lifecycle.yml
+compatibility:
+  openai_compatible: true
+  detail: >-
+    Ember ships an OpenAI-compatible chat-completions sampling API, so standard OpenAI SDK
+    request/response shapes (messages[], model, stream) apply to the sampling surface. On top
+    of that it adds Goodfire-specific operations for feature discovery (semantic/contrastive
+    search, AutoSteer), feature inspection/context, and model-variant creation/steering.
+content_type: application/json
+streaming:
+  supported: true
+  style: server-sent events (OpenAI-style stream=true)
+idempotency:
+  supported: false
+  notes: No idempotency-key header is documented for the Ember API.
+pagination:
+  supported: unknown
+  notes: Not documented in the SDK README; feature-search results are returned as bounded lists.
+rate_limiting:
+  documented: false
+  notes: No public rate-limit header contract documented.
+error_envelope:
+  documented: false
+  notes: >-
+    Errors surface through the SDK as exceptions; no public RFC 9457 problem+json contract is
+    documented for the raw HTTP surface.
+cross_links:
+  authentication: authentication/goodfire-authentication.yml
+  lifecycle: lifecycle/goodfire-lifecycle.yml
+  packages: packages/goodfire-packages.yml

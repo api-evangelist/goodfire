@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: live /.well-known probes 2026-07-19
+hosts:
+- host: https://goodfire.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.goodfire.ai
+  note: API host returns 502 (Ember appears offline/deprecated); no documents retrievable.
+  documents:
+  - path: /.well-known/security.txt
+    status: 502
+  - path: /.well-known/openid-configuration
+    status: 502
+result: none
+notes: >-
+  No /.well-known discovery documents are published. trust.goodfire.ai serves a Vanta trust
+  report SPA that returns 200 for arbitrary paths (app shell), so it is not treated as a real
+  security.txt. No canonical WellKnown/SecurityTxt pointer emitted (nothing found).
