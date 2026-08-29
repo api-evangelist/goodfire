@@ -9,6 +9,19 @@ description: >-
   Llama 3.1 8B. The company is now consolidating this interpretability work into its Silico
   platform, which spans large language models, life sciences, and robotics/vision. Backed by
   Lightspeed, Menlo Ventures, and Wing Venture Capital.
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
