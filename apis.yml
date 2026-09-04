@@ -24,15 +24,16 @@ deliveryModel:
   method: derived
 accessModel:
   pricing: unknown
-  onboarding: self-serve
+  onboarding: unknown
   trial: false
   try_now: false
   public: false
-  label: Self-serve signup
-  confidence: medium
+  label: Unknown
+  confidence: low
   source:
   - authentication
-  generated: '2026-07-22'
+  - security
+  generated: '2026-09-03'
   method: derived
 image: https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67f8223b7a5017e5e1e983ac_opengraph.png
 url: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/apis.yml
