@@ -1,0 +1,33 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.goodfire.com/pricing
+sources:
+- https://www.goodfire.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Two tiers; one numeric price for academic/safety, enterprise is custom.
+plan_count: 2
+currency: USD
+plans:
+- name: Academic & Safety Labs
+  price_text: $1,000 / month
+  price: 1000
+  currency: USD
+  period: month
+  included_quota: Full access to Silico's interpretability and training capabilities; research agent;
+    usage refreshed weekly; run on Goodfire's infrastructure or connect your own cluster
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Everything in Academic & Safety, plus dedicated researcher support, organization-level
+    billing and seat management, Zero Data Retention available
