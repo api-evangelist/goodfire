@@ -94,6 +94,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.goodfire.com/pricing
+- type: Plans
+  url: plans/goodfire-plans-pricing.yml
 - type: IssueTracker
   url: https://github.com/goodfire-ai/goodfire-sdk/issues
 - type: License
