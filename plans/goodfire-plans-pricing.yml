@@ -31,3 +31,24 @@ plans:
   period: none
   included_quota: Everything in Academic & Safety, plus dedicated researcher support, organization-level
     billing and seat management, Zero Data Retention available
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Academic & Safety Labs
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
