@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Goodfire is a company surfaced as a portfolio company of lightspeed-venture-partners, menlo-ventures, wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Goodfire is an AI interpretability research lab building tools to understand, debug, and intentionally design neural networks by surfacing the internal features (via sparse autoencoders) that drive model behavior. Its Ember API/SDK was the first hosted mechanistic-interpretability API, offering an OpenAI-compatible inference endpoint plus feature discovery, inspection, and steering over open models such as Llama 3.3 70B and Llama 3.1 8B. The company is now consolidating this interpretability work into its Silico platform, which spans large language models, life sciences, and robotics/vision. Backed by Lightspeed, Menlo Ventures, and Wing Venture Capital.
 
-Backed by: lightspeed-venture-partners, menlo-ventures, wing-venture-capital — https://goodfire.ai
+**Areas:** Company · Artificial Intelligence · Machine Learning · Interpretability · LLM · Model Steering · Inference · Developer Tools · Research
+
+## Goodfire on APIs.io
+
+Everything profiled for Goodfire is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/goodfire/](https://apis.io/providers/goodfire/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ember API](https://apis.io/apis/goodfire/ember-api/) — Hosted mechanistic-interpretability API. OpenAI-compatible chat-completions sampling plus feature discovery (semantic/contrastive search, AutoSteer),…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Goodfire Authentication](https://apis.io/security/goodfire/goodfire-authentication/)
+- [Goodfire Domain Security](https://apis.io/security/goodfire/goodfire-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Goodfire Plans Pricing](https://apis.io/plans/goodfire/goodfire-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://goodfire.ai)
+- [Documentation](https://github.com/goodfire-ai/goodfire-sdk)
+- [Getting started](https://github.com/goodfire-ai/goodfire-sdk#readme)
+- [Pricing](https://www.goodfire.com/pricing)
+- [Sign up](https://platform.goodfire.ai)
+- [Support](https://www.goodfire.ai/contact)
+- [Blog](https://www.goodfire.ai/blog)
+- [Trust centre](https://trust.goodfire.ai/)
+- [Terms of service](https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d25635919af723e246_TermsOfUse.pdf)
+- [Privacy policy](https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67b856d26882aaeb845674e4_PrivacyPolicy.pdf)
+- [GitHub](https://github.com/goodfire-ai)
+
+## API Evangelist rating
+
+**Kin Score 39.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 73.7 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/goodfire/](https://apis.io/providers/goodfire/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Goodfire: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/goodfire/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
